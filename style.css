@@ -1,0 +1,100 @@
+body{     
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #89729E;height: 100vh;margin: 0px;padding: 0px;}
+.container{
+    width: 500px;
+    height: max-content;
+    margin:17px auto;
+    background-color: lightgray;
+    border: 10px solid #763568 ;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+h1{
+    color: purple;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+}
+
+button{
+    width: 300px;
+    display: block;
+    height: 40px;
+   margin: 10px auto;
+   color: white;
+   font-size: 20px;
+   opacity: 0.7;
+   border: none;
+   border-radius: 15px;
+}
+
+button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+#removeall{
+    background-color:fuchsia;
+}
+
+#remove{
+    background-color:maroon;
+    margin-bottom: 50px;
+}
+
+#add{
+    background-color:blue;
+}
+
+#new{
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    border: 3px solid lightblue;
+    margin-bottom: 20px;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+
+#mylist{
+    list-style: none;
+}
+
+.mycheck{
+    text-align: left;
+    width: 400px;
+    height: 32px;
+    border: 3px solid  #89729E;
+    margin: 7px;
+    background-color:whitesmoke;
+    border-radius: 7px;
+}
+
+.check{
+    -ms-transform: scale(2); /* IE */
+    -moz-transform: scale(2); /* FF */
+    -webkit-transform: scale(2); /* Safari and Chrome */
+    -o-transform: scale(2); /* Opera */
+    transform: scale(2);
+    margin: 10px;
+}
+
+
+.cut{ 
+    text-decoration: line-through;
+    opacity: 0.4; 
+}
+
+#visual{
+    animation-name: effect;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+}
+
+@keyframes effect{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>todo app</title>
+</head>
+<body>
+   
+    <div class="container">
+        <h1>My favourite Todo App</h1>
+        <input type="text" name="entery" id="new"><br>
+        <button type="button" id="add">Add new todo</button>
+        <button type="button" id="removeall">Remove all todo</button>
+        <button type="button" id="remove">Remove done todo</button>
+
+        <ul id="mylist">
+            
+            <li class="mycheck">
+                <input type="checkbox" class="check" >
+                <label class="mytodo">make tea</label>
+            </li>
+
+            <li class="mycheck">
+                <input type="checkbox" class="check">
+                <label class="mytodo">notes making</label>
+            </li>
+
+            <li class="mycheck cut">
+                <input type="checkbox" class="check" checked>
+                <label class="mytodo">set clothes</label>
+            </li>
+
+
+        </ul>
+
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
